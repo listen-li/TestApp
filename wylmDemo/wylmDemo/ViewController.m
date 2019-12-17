@@ -17,6 +17,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    
+    [self setUI];
+    
+}
+
+-(void)setUI{
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(200, 200, 200, 200)];
+    view.backgroundColor = [UIColor blueColor];
+    
+    [self.view addSubview:view];
 }
 
 
